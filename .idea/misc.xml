@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/51931/AndroidStudioProjects/PushNotificationApp/app/src/main/res/layout/activity_home.xml" value="0.2726449275362319" />
-        <entry key="..\:/Users/51931/AndroidStudioProjects/PushNotificationApp/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/51931/AndroidStudioProjects/PushNotificationApp/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/51931/AndroidStudioProjects/PushNotificationApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/51931/AndroidStudioProjects/PushNotificationApp/app/src/main/res/layout/content_main.xml" value="0.33" />
         <entry key="..\:/Users/51931/AndroidStudioProjects/PushNotificationApp/app/src/main/res/layout/fragment_first.xml" value="0.1" />
         <entry key="..\:/Users/51931/AndroidStudioProjects/PushNotificationApp/app/src/main/res/layout/fragment_second.xml" value="0.1" />
       </map>

@@ -15,7 +15,7 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
         Looper.prepare()
 
         Handler().post {
-            println("aaaaaa")
+            println("Message data payload: ${remoteMessage.data}")
             Toast.makeText(baseContext,"Notification : ${remoteMessage.notification?.title}",Toast.LENGTH_LONG).show()
         }
 
@@ -25,7 +25,6 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
 
         Looper.loop()
         /*
-        println("aaaaaaaaaaaaaaaaa")
         Log.d(TAG, "From: ${remoteMessage.from}")
 
         if (remoteMessage.data.isNotEmpty()) {
@@ -44,4 +43,6 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
         // message, here is where that should be initiated. See sendNotification method below.
 
     }
+
+
 }
