@@ -19,12 +19,12 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
             Toast.makeText(baseContext,"Notification : ${remoteMessage.notification?.title}",Toast.LENGTH_LONG).show()
         }
 
-        /*Handler(Looper.getMainLooper()).postDelayed({
+        Handler(Looper.getMainLooper()).postDelayed({
             Toast.makeText(baseContext,"Notification : ${remoteMessage.notification?.title}",Toast.LENGTH_LONG).show()
-        }, 3000)*/
+        }, 3000)
 
         Looper.loop()
-        /*
+
         Log.d(TAG, "From: ${remoteMessage.from}")
 
         if (remoteMessage.data.isNotEmpty()) {
@@ -33,14 +33,9 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
 
         }
 
-        // Check if message contains a notification payload.
         remoteMessage.notification?.let {
             Log.d(TAG, "Message Notification Body: ${it.body}")
         }
-        */
-
-        // Also if you intend on generating your own notifications as a result of a received FCM
-        // message, here is where that should be initiated. See sendNotification method below.
 
     }
 

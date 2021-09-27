@@ -20,6 +20,7 @@ import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.installations.FirebaseInstallations
 import com.google.firebase.messaging.FirebaseMessaging
+import com.microsoft.windowsazure.messaging.notificationhubs.NotificationHub
 //import com.microsoft.windowsazure.messaging.NotificationHub
 //import com.microsoft.windowsazure.messaging.notificationhubs.InstallationTemplate
 //import com.microsoft.windowsazure.messaging.notificationhubs.NotificationHub
@@ -106,12 +107,12 @@ class MainActivity : AppCompatActivity() {
 
         //Azure
 
-        //NotificationHub.setListener(CustomNotificationListener());
-        //NotificationHub.start(this.getApplication(), "notificationhubname", "Endpoint=sb://notificationhub18.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=IbLXUPd/WpTp/d0ewSMNl1Kf/mDmY5nwBFBara5jiUg=");
+        NotificationHub.setListener(CustomNotificationListener());
+        NotificationHub.start(this.getApplication(), "notificationhubname", "Endpoint=sb://notificationhub18.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=IbLXUPd/WpTp/d0ewSMNl1Kf/mDmY5nwBFBara5jiUg=");
 
 
         //setup
-        //setup()
+        setup()
         //session()
 
     }

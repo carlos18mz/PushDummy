@@ -8,9 +8,9 @@ import android.R.id.message
 import android.content.ContentValues.TAG
 import android.util.Log
 import com.google.firebase.messaging.RemoteMessage
-//import com.microsoft.windowsazure.messaging.notificationhubs.NotificationListener
+import com.microsoft.windowsazure.messaging.notificationhubs.NotificationListener
 
-/*
+
 class CustomNotificationListener: NotificationListener {
     override fun onPushNotificationReceived(context: Context?, message: RemoteMessage?) {
 
@@ -35,5 +35,3 @@ class CustomNotificationListener: NotificationListener {
 
     }
 }
-
- */

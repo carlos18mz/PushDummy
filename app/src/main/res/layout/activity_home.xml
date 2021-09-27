@@ -17,7 +17,8 @@
             android:id="@+id/tvEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:hint="textosss"
+            android:text="22323"/>
 
         <TextView
             android:id="@+id/tvProvider"

@@ -51,10 +51,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics:19.0.1'
     implementation 'com.google.firebase:firebase-auth:19.3.0'
     implementation 'com.google.firebase:firebase-messaging:20.0.0'
-    //implementation 'com.microsoft.azure:notification-hubs-android-sdk-fcm:1.1.4'
+    implementation 'com.microsoft.azure:notification-hubs-android-sdk-fcm:1.1.4'
     implementation 'androidx.appcompat:appcompat:1.3.1'
     //implementation 'com.facebook.anroid:facebook-android-sdk:[4,5]'
-    //implementation 'com.google.android.gms:play-services-auth:19.2.0'
+    implementation 'com.google.android.gms:play-services-auth:19.2.0'
 
     //Coroutines
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5'
